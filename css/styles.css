@@ -112,9 +112,23 @@ body {
   }
 }
 
+/* very small devices adjustments */
 @media(max-width: 350px) {
   .card-footer {
     padding-left: 1px !important;
     padding-right: 1px !important;
+  }
+}
+
+/* landscape adjustments */
+@media screen
+  and (max-device-height: 900px)
+  and (max-device-width: 450px)
+  and (orientation: landscape) {
+  body, html {
+    height: 110%;
+  }
+  .wrapper {
+    height: 110%;
   }
 }
