@@ -121,14 +121,14 @@ body {
 }
 
 /* landscape adjustments */
-@media screen
-  and (max-device-height: 900px)
-  and (max-device-width: 450px)
-  and (orientation: landscape) {
-  body, html {
-    height: 110%;
-  }
-  .wrapper {
-    height: 110%;
-  }
+@media screen and (orientation:landscape)
+and (min-device-width: 450px)
+and (max-device-width: 900px) {
+   html, body {
+     height: 110%;
+   }
+
+   .wrapper {
+     height: 110%;
+   }
 }
