@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <!-- Bootstrap Javascript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+  <title>Frontend Mentor | Profile card component</title>
+
+</head>
+
+<body>
+
+  <!-- Main Section -->
+  <div class="wrapper">
+    <img src="images/bg-pattern-top.svg" class="bg-pattern-top position-absolute top-0 start-0 translate-middle" alt="">
+    <img src="images/bg-pattern-bottom.svg" class="bg-pattern-bottom position-absolute top-100 start-100 translate-middle" alt="">
+    <div class="card-wrapper position-absolute start-50 top-50 translate-middle">
+      <div class="card mx-auto">
+        <img src="images/bg-pattern-card.svg" class="card-img-top bg-pattern-card" alt="">
+        <div class="card-body">
+          <img src="images/image-victor.jpg" class="card-img-top position-absolute translate-middle rounded-circle border border-white border-5 profile-picture" alt="">
+          <div class="card-text pt-4 mt-5">
+            <h3 class="full-name">Victor Crest <span class="age">26</span></h3>
+            <h4 class="location">London</h4>
+          </div>
+        </div>
+        <div class="card-footer px-3 pt-3 bg-white">
+          <div class="container pt-2">
+            <div class="row">
+              <div class="col-4">
+                <h3 class="stat-title mb-1">80K</h3>
+                <p class="stat-paragraph">Followers</p>
+              </div>
+              <div class="col-4">
+                <h3 class="stat-title mb-1">803K</h3>
+                <p class="stat-paragraph">Likes</p>
+              </div>
+              <div class="col-4">
+                <h3 class="stat-title mb-1">1.4K</h3>
+                <p class="stat-paragraph">Photos</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Attribution Section -->
+    <div class="attribution position-absolute start-50 translate-middle">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/0rokuSaki" target="_blank">Aaron Barkan</a>.
+    </div>
+  </div>
+</body>
+
+</html>

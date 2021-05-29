@@ -1,0 +1,120 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  color: hsl(229, 23%, 23%);
+  font-family: 'Kumbh Sans', sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  height: 100%;
+  overflow: hidden;
+  width: auto;
+  position: relative;
+}
+
+.bg-pattern-top, .bg-pattern-bottom {
+  width: 130%;
+}
+
+.full-name, .stat-title {
+  font-size: 18px;
+}
+
+/* main section */
+.card-wrapper {
+  height: 430px;
+  width: 90%;
+}
+
+.card {
+  border-radius: 16px;
+  border-style: none;
+  height: 410px;
+  max-width: 375px;
+}
+
+.card-body {
+  height: 100px;
+}
+
+.bg-pattern-card {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  height: 150px
+}
+
+.profile-picture {
+  width: 128px;
+  height: auto;
+  top: 37%;
+}
+
+.full-name {
+  font-weight: 700;
+}
+
+.location {
+  font-size: 1.1rem;
+}
+
+.age, .location, .stat-paragraph {
+  color: hsl(227, 10%, 46%);
+  font-weight: 400;
+}
+
+.card-footer {
+  border-bottom-left-radius: 16px !important;
+  border-bottom-right-radius: 16px !important;
+  font-size: 0.75rem;
+}
+
+.stat-title {
+  font-weight: 700;
+}
+
+.stat-paragraph {
+  letter-spacing: 2px;
+}
+
+
+/* attribution */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  top: 98%;
+  width: 85%;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+/* media queries */
+
+/* desktop & tablet adjustments */
+@media(min-width: 768px) {
+  .bg-pattern-top, .bg-pattern-bottom {
+    width: 80%;
+  }
+
+  .bg-pattern-top {
+    left: 12% !important;
+    top: -10% !important;
+  }
+
+  .bg-pattern-bottom {
+    left: 90% !important;
+    top: 120% !important;
+  }
+}
+
+@media(max-width: 350px) {
+  .card-footer {
+    padding-left: 1px !important;
+    padding-right: 1px !important;
+  }
+}
